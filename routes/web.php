@@ -98,6 +98,12 @@ Route::group(['prefix' => 'auth'], function(){
     Route::get('register', function () { return view('pages.auth.register'); });
 });
 
+Route::group(['prefix' => 'user'], function(){
+    Route::get('create', function () { return view('pages.user.create'); });
+    Route::get('edit', function () { return view('pages.user.edit'); });
+    Route::get('index', function () { return view('pages.user.index'); });
+});
+
 Route::group(['prefix' => 'error'], function(){
     Route::get('404', function () { return view('pages.error.404'); });
     Route::get('500', function () { return view('pages.error.500'); });

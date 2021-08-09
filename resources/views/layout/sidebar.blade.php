@@ -55,85 +55,26 @@
       </li> -->
 
       <li class="nav-item nav-category">Components</li>
-      <li class="nav-item {{ active_class(['ui-components/*']) }}">
-        <a class="nav-link" data-toggle="collapse" href="#uiComponents" role="button" aria-expanded="{{ is_active_route(['ui-components/*']) }}" aria-controls="uiComponents">
+      <li class="nav-item {{ active_class(['user/*']) }}">
+        <a class="nav-link" data-toggle="collapse" href="#user" role="button" aria-expanded="{{ is_active_route(['user/*']) }}" aria-controls="user">
           <i class="link-icon" data-feather="user"></i>
-          <span class="link-title">UI Kit</span>
+          <span class="link-title">User</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
         </a>
-        <div class="collapse {{ show_class(['ui-components/*']) }}" id="uiComponents">
+        <div class="collapse {{ show_class(['user/*']) }}" id="user">
           <ul class="nav sub-menu">
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/alerts') }}" class="nav-link {{ active_class(['ui-components/alerts']) }}">Alerts</a>
+          <li class="nav-item">
+              <a href="{{ url('/user/create') }}" class="nav-link {{ active_class(['user/create']) }}">Add User</a>
             </li>
             <li class="nav-item">
-              <a href="{{ url('/ui-components/badges') }}" class="nav-link {{ active_class(['ui-components/badges']) }}">Badges</a>
+              <a href="{{ url('/user/index') }}" class="nav-link {{ active_class(['user/index']) }}">List All Users</a>
             </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/breadcrumbs') }}" class="nav-link {{ active_class(['ui-components/breadcrumbs']) }}">Breadcrumbs</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/buttons') }}" class="nav-link {{ active_class(['ui-components/buttons']) }}">Buttons</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/button-group') }}" class="nav-link {{ active_class(['ui-components/button-group']) }}">Button group</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/cards') }}" class="nav-link {{ active_class(['ui-components/cards']) }}">Cards</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/carousel') }}" class="nav-link {{ active_class(['ui-components/carousel']) }}">Carousel</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/collapse') }}" class="nav-link {{ active_class(['ui-components/collapse']) }}">Collapse</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/dropdowns') }}" class="nav-link {{ active_class(['ui-components/dropdowns']) }}">Dropdowns</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/list-group') }}" class="nav-link {{ active_class(['ui-components/list-group']) }}">List group</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/media-object') }}" class="nav-link {{ active_class(['ui-components/media-object']) }}">Media object</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/modal') }}" class="nav-link {{ active_class(['ui-components/modal']) }}">Modal</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/navs') }}" class="nav-link {{ active_class(['ui-components/navs']) }}">Navs</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/navbar') }}" class="nav-link {{ active_class(['ui-components/navbar']) }}">Navbar</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/pagination') }}" class="nav-link {{ active_class(['ui-components/pagination']) }}">Pagination</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/popovers') }}" class="nav-link {{ active_class(['ui-components/popovers']) }}">Popvers</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/progress') }}" class="nav-link {{ active_class(['ui-components/progress']) }}">Progress</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/scrollbar') }}" class="nav-link {{ active_class(['ui-components/scrollbar']) }}">Scrollbar</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/scrollspy') }}" class="nav-link {{ active_class(['ui-components/scrollspy']) }}">Scrollspy</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/spinners') }}" class="nav-link {{ active_class(['ui-components/spinners']) }}">Spinners</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/tabs') }}" class="nav-link {{ active_class(['ui-components/tabs']) }}">Tabs</a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url('/ui-components/tooltips') }}" class="nav-link {{ active_class(['ui-components/tooltips']) }}">Tooltips</a>
-            </li>
+            
           </ul>
         </div>
       </li>
 
-      <li class="nav-item {{ active_class(['advanced-ui/*']) }}">
+      <!-- <li class="nav-item {{ active_class(['advanced-ui/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#advanced-ui" role="button" aria-expanded="{{ is_active_route(['advanced-ui/*']) }}" aria-controls="advanced-ui">
           <i class="link-icon" data-feather="anchor"></i>
           <span class="link-title">Advanced UI</span>
@@ -317,7 +258,7 @@
           <i class="link-icon" data-feather="hash"></i>
           <span class="link-title">Documentation</span>
         </a>
-      </li>
+      </li> -->
 
     </ul>
   </div>

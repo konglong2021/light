@@ -38,7 +38,7 @@
         A simple dark alert—check it out!
       </div>
     </div>
-    <figure class="highlight" id="defaultAlert">
+    <!-- <figure class="highlight" id="defaultAlert">
 <pre><code class="language-markup"><script type="script/prism-html-markup"><div class="alert alert-primary" role="alert">
   A simple primary alert—check it out!
 </div>
@@ -257,7 +257,7 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
-</div></script></code></pre>
+</div></script></code></pre> -->
       <button type="button" class="btn btn-clipboard" data-clipboard-target="#dismissingAlert"><i data-feather="copy"></i></button>
     </figure>
 
