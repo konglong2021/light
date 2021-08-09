@@ -141,7 +141,7 @@
   </div>
 </div> <!-- row -->
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-12 col-xl-12 grid-margin stretch-card">
     <div class="card overflow-hidden">
       <div class="card-body">
@@ -179,9 +179,9 @@
       </div>
     </div>
   </div>
-</div> <!-- row -->
+</div> row -->
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-lg-7 col-xl-8 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
@@ -244,10 +244,10 @@
       </div>
     </div>
   </div>
-</div> <!-- row -->
+</div>  -->
 
 <div class="row">
-  <div class="col-lg-5 col-xl-4 grid-margin grid-margin-xl-0 stretch-card">
+  <!-- <div class="col-lg-5 col-xl-4 grid-margin grid-margin-xl-0 stretch-card">
     <div class="card">
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-baseline mb-2">
@@ -329,8 +329,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="col-lg-7 col-xl-8 stretch-card">
+  </div> -->
+  <div class="col-lg-12 col-xl-12 stretch-card">
     <div class="card">
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-baseline mb-2">

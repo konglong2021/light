@@ -1,7 +1,7 @@
 <nav class="sidebar">
   <div class="sidebar-header">
     <a href="#" class="sidebar-brand">
-      Noble<span>UI</span>
+      Mobile<span>POS</span>
     </a>
     <div class="sidebar-toggler not-active">
       <span></span>
@@ -18,7 +18,7 @@
           <span class="link-title">Dashboard</span>
         </a>
       </li>
-      <li class="nav-item nav-category">web apps</li>
+      <!-- <li class="nav-item nav-category">web apps</li>
       <li class="nav-item {{ active_class(['email/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#email" role="button" aria-expanded="{{ is_active_route(['email/*']) }}" aria-controls="email">
           <i class="link-icon" data-feather="mail"></i>
@@ -39,22 +39,25 @@
           </ul>
         </div>
       </li>
+
       <li class="nav-item {{ active_class(['apps/chat']) }}">
         <a href="{{ url('/apps/chat') }}" class="nav-link">
           <i class="link-icon" data-feather="message-square"></i>
           <span class="link-title">Chat</span>
         </a>
       </li>
+
       <li class="nav-item {{ active_class(['apps/calendar']) }}">
         <a href="{{ url('/apps/calendar') }}" class="nav-link">
           <i class="link-icon" data-feather="calendar"></i>
           <span class="link-title">Calendar</span>
         </a>
-      </li>
+      </li> -->
+
       <li class="nav-item nav-category">Components</li>
       <li class="nav-item {{ active_class(['ui-components/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#uiComponents" role="button" aria-expanded="{{ is_active_route(['ui-components/*']) }}" aria-controls="uiComponents">
-          <i class="link-icon" data-feather="feather"></i>
+          <i class="link-icon" data-feather="user"></i>
           <span class="link-title">UI Kit</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
         </a>
@@ -129,6 +132,7 @@
           </ul>
         </div>
       </li>
+
       <li class="nav-item {{ active_class(['advanced-ui/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#advanced-ui" role="button" aria-expanded="{{ is_active_route(['advanced-ui/*']) }}" aria-controls="advanced-ui">
           <i class="link-icon" data-feather="anchor"></i>
@@ -149,6 +153,7 @@
           </ul>
         </div>
       </li>
+
       <li class="nav-item {{ active_class(['forms/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#forms" role="button" aria-expanded="{{ is_active_route(['forms/*']) }}" aria-controls="forms">
           <i class="link-icon" data-feather="inbox"></i>
@@ -172,6 +177,7 @@
           </ul>
         </div>
       </li>
+
       <li class="nav-item {{ active_class(['charts/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#charts" role="button" aria-expanded="{{ is_active_route(['charts/*']) }}" aria-controls="charts">
           <i class="link-icon" data-feather="pie-chart"></i>
@@ -201,6 +207,7 @@
           </ul>
         </div>
       </li>
+
       <li class="nav-item {{ active_class(['tables/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#tables" role="button" aria-expanded="{{ is_active_route(['tables/*']) }}" aria-controls="tables">
           <i class="link-icon" data-feather="layout"></i>
@@ -218,6 +225,7 @@
           </ul>
         </div>
       </li>
+
       <li class="nav-item {{ active_class(['icons/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#icons" role="button" aria-expanded="{{ is_active_route(['icons/*']) }}" aria-controls="icons">
           <i class="link-icon" data-feather="smile"></i>
@@ -238,6 +246,7 @@
           </ul>
         </div>
       </li>
+      
       <li class="nav-item nav-category">Pages</li>
       <li class="nav-item {{ active_class(['general/*']) }}">
         <a class="nav-link" data-toggle="collapse" href="#general" role="button" aria-expanded="{{ is_active_route(['general/*']) }}" aria-controls="general">
@@ -309,10 +318,11 @@
           <span class="link-title">Documentation</span>
         </a>
       </li>
+
     </ul>
   </div>
 </nav>
-<nav class="settings-sidebar">
+<!-- <nav class="settings-sidebar">
   <div class="sidebar-body">
     <a href="#" class="settings-sidebar-toggler">
       <i data-feather="settings"></i>
@@ -343,4 +353,4 @@
       </a>
     </div>
   </div>
-</nav>
+</nav> -->
